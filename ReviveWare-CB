@@ -1517,8 +1517,8 @@ SettingsTabCategoryMain:AddButton("Server Rejoin", function()
     game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
 end)
 
-SettingsTabCategoryMain:AddButton("Copy Discord Invite", function()
-	setclipboard("https://discord.gg/FdrQZ6sD5T")
+SettingsTabCategoryMain:AddButton("Discord [Comming soon]", function()
+	setclipboard("")
 end)
 
 SettingsTabCategoryMain:AddButton("Copy Roblox Game Invite", function()
@@ -1626,25 +1626,25 @@ end)
 
 local SettingsTabCategoryCredits = SettingsTab:AddCategory("Credits", 2)
 
-SettingsTabCategoryCredits:AddLabel("Script - Pawel12d#0272")
+SettingsTabCategoryCredits:AddLabel("ReviveWare")
 
-SettingsTabCategoryCredits:AddLabel("ESP - Modified Kiriot ESP")
-
-SettingsTabCategoryCredits:AddLabel("UI Library - Modified Phantom Ware")
+SettingsTabCategoryCredits:AddLabel("Made By Frayeos")
 
 SettingsTabCategoryCredits:AddLabel("")
 
-SettingsTabCategoryCredits:AddLabel("Special Thanks To:")
-
-SettingsTabCategoryCredits:AddLabel("ny#2817")
-
-SettingsTabCategoryCredits:AddLabel("neeX#3712")
-
-SettingsTabCategoryCredits:AddLabel("MrPolaczekPL#1884")
+SettingsTabCategoryCredits:AddLabel("")
 
 SettingsTabCategoryCredits:AddLabel("")
 
-SettingsTabCategoryCredits:AddLabel("Don't steal credits or burn in hell.")
+SettingsTabCategoryCredits:AddLabel("")
+
+SettingsTabCategoryCredits:AddLabel("")
+
+SettingsTabCategoryCredits:AddLabel("")
+
+SettingsTabCategoryCredits:AddLabel("")
+
+SettingsTabCategoryCredits:AddLabel("ReviveWare is HERE!")
 
 
 
@@ -2191,9 +2191,9 @@ if readfile("hexagon/autoload.txt") ~= "" and isfile("hexagon/configs/"..readfil
 	end
 end
 
-print("Hexagon finished loading!")
-print("101 120 111 100 117 115") -- :)
+print("ReviveWare Loaded!")
+print("101 120 111 100 117 115") Have Fun :)
 
-Hint.Text = "Hexagon | Loading finished!"
+Hint.Text = "ReviveWare | FREE VERSION TEST!"
 wait(1.5)
 Hint:Destroy()
