@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ReviveWare/ReviveWare-Counter-blox-script-/main/ReviveWare-CB"))()
